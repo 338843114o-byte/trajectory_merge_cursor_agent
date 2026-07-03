@@ -557,13 +557,25 @@ def main() -> int:
                                         parse_retries=args.parse_retries,
                                     )
                                 except Exception as exc:
+                                    error_message = f"{type(exc).__name__}: {exc}"
+
+                                    print(
+                                        f"[VOTE ERROR] "
+                                        f"case={case.case_id}, "
+                                        f"candidate={candidate.old_track_id}->{candidate.new_track_id}, "
+                                        f"vote={vote_index}/{args.votes}: "
+                                        f"{error_message}",
+                                        file=sys.stderr,
+                                        flush=True,
+                                    )
+
                                     vote = VoteResult(
                                         parse_ok=False,
                                         same_physical_item=None,
                                         confidence=None,
                                         evidence=[],
                                         reason="",
-                                        error=f"{type(exc).__name__}: {exc}",
+                                        error=error_message,
                                     )
                                 votes.append(vote)
                             result = aggregate_votes(
