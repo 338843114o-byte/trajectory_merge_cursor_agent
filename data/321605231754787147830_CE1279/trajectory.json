@@ -1,0 +1,99 @@
+{
+  "case_id": "f57aaeda1b164bf9a7f0c119572fc228-02b97d2df8d129e959d653b1ca23b2e2_main_track3_to_track5",
+  "frames": [
+    {
+      "frame_index": 157,
+      "role": "old_stable",
+      "role_name": "旧轨迹稳定帧",
+      "image_path": "01_old_stable_frame_000157.jpg",
+      "tracks": [
+        {
+          "track_id": "H3",
+          "bbox": [
+            607,
+            360,
+            746,
+            504
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ]
+    },
+    {
+      "frame_index": 164,
+      "role": "old_last",
+      "role_name": "旧轨迹最后帧",
+      "image_path": "02_old_last_frame_000164.jpg",
+      "tracks": [
+        {
+          "track_id": "H3",
+          "bbox": [
+            626,
+            369,
+            728,
+            496
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ]
+    },
+    {
+      "frame_index": 198,
+      "role": "gap_middle",
+      "role_name": "中间断轨帧",
+      "image_path": "03_gap_middle_frame_000198.jpg",
+      "tracks": []
+    },
+    {
+      "frame_index": 231,
+      "role": "new_first",
+      "role_name": "新轨迹第一帧",
+      "image_path": "04_new_first_frame_000231.jpg",
+      "tracks": [
+        {
+          "track_id": "H5",
+          "bbox": [
+            709,
+            391,
+            784,
+            505
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ]
+    },
+    {
+      "frame_index": 250,
+      "role": "new_stable",
+      "role_name": "新轨迹稳定帧",
+      "image_path": "05_new_stable_frame_000250.jpg",
+      "tracks": [
+        {
+          "track_id": "H5",
+          "bbox": [
+            696,
+            390,
+            792,
+            513
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ]
+    }
+  ],
+  "candidate_transitions": [
+    {
+      "old_track_id": "H3",
+      "new_track_id": "H5",
+      "old_stable_frame_index": 157,
+      "old_frame_index": 164,
+      "gap_frame_index": 198,
+      "new_frame_index": 231,
+      "new_stable_frame_index": 250
+    }
+  ]
+}

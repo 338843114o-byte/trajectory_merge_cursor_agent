@@ -1,0 +1,96 @@
+{
+  "case_id": "32250608121754407606564_CE1279_main",
+  "frames": [
+    {
+      "frame_index": 350,
+      "image_path": "frame_350.png",
+      "tracks": [
+        {
+          "track_id": "H3",
+          "bbox": [
+            576,
+            531,
+            756,
+            673
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_350_annotated.png"
+    },
+    {
+      "frame_index": 353,
+      "image_path": "frame_353.png",
+      "tracks": [
+        {
+          "track_id": "H3",
+          "bbox": [
+            618,
+            532,
+            794,
+            672
+          ],
+          "class_name": "product",
+          "is_target": true
+        },
+        {
+          "track_id": "H4",
+          "bbox": [
+            458,
+            562,
+            760,
+            658
+          ],
+          "class_name": "product",
+          "is_target": false
+        }
+      ],
+      "annotated_image_path": "frame_353_annotated.png"
+    },
+    {
+      "frame_index": 354,
+      "image_path": "frame_354.png",
+      "tracks": [
+        {
+          "track_id": "H4",
+          "bbox": [
+            466,
+            557,
+            778,
+            659
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_354_annotated.png"
+    },
+    {
+      "frame_index": 358,
+      "image_path": "frame_358.png",
+      "tracks": [
+        {
+          "track_id": "H4",
+          "bbox": [
+            474,
+            543,
+            812,
+            665
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_358_annotated.png"
+    }
+  ],
+  "candidate_transitions": [
+    {
+      "old_track_id": "H3",
+      "new_track_id": "H4",
+      "old_frame_index": 353,
+      "new_frame_index": 354
+    }
+  ]
+}

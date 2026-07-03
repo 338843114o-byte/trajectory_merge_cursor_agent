@@ -1,0 +1,395 @@
+{
+  "case_id": "321611241754456644217_CE1279_main",
+  "frames": [
+    {
+      "frame_index": 151,
+      "image_path": "frame_151.png",
+      "tracks": [
+        {
+          "track_id": "H1",
+          "bbox": [
+            1066,
+            112,
+            1108,
+            138
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_151_annotated.png"
+    },
+    {
+      "frame_index": 153,
+      "image_path": "frame_153.png",
+      "tracks": [
+        {
+          "track_id": "H1",
+          "bbox": [
+            1070,
+            110,
+            1108,
+            140
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_153_annotated.png"
+    },
+    {
+      "frame_index": 160,
+      "image_path": "frame_160.png",
+      "tracks": [
+        {
+          "track_id": "H2",
+          "bbox": [
+            1134,
+            125,
+            1178,
+            151
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_160_annotated.png"
+    },
+    {
+      "frame_index": 161,
+      "image_path": "frame_161.png",
+      "tracks": [
+        {
+          "track_id": "H2",
+          "bbox": [
+            1133,
+            126,
+            1181,
+            158
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_161_annotated.png"
+    },
+    {
+      "frame_index": 170,
+      "image_path": "frame_170.png",
+      "tracks": [
+        {
+          "track_id": "H2",
+          "bbox": [
+            1102,
+            124,
+            1186,
+            166
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_170_annotated.png"
+    },
+    {
+      "frame_index": 171,
+      "image_path": "frame_171.png",
+      "tracks": [
+        {
+          "track_id": "H2",
+          "bbox": [
+            1103,
+            122,
+            1189,
+            170
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_171_annotated.png"
+    },
+    {
+      "frame_index": 183,
+      "image_path": "frame_183.png",
+      "tracks": [
+        {
+          "track_id": "H4",
+          "bbox": [
+            1094,
+            133,
+            1254,
+            217
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_183_annotated.png"
+    },
+    {
+      "frame_index": 184,
+      "image_path": "frame_184.png",
+      "tracks": [
+        {
+          "track_id": "H4",
+          "bbox": [
+            1096,
+            132,
+            1262,
+            206
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_184_annotated.png"
+    },
+    {
+      "frame_index": 204,
+      "image_path": "frame_204.png",
+      "tracks": [
+        {
+          "track_id": "H4",
+          "bbox": [
+            918,
+            324,
+            1180,
+            422
+          ],
+          "class_name": "product",
+          "is_target": true
+        },
+        {
+          "track_id": "H6",
+          "bbox": [
+            944,
+            420,
+            1212,
+            532
+          ],
+          "class_name": "product",
+          "is_target": false
+        }
+      ],
+      "annotated_image_path": "frame_204_annotated.png"
+    },
+    {
+      "frame_index": 208,
+      "image_path": "frame_208.png",
+      "tracks": [
+        {
+          "track_id": "H4",
+          "bbox": [
+            614,
+            392,
+            810,
+            454
+          ],
+          "class_name": "product",
+          "is_target": true
+        },
+        {
+          "track_id": "H6",
+          "bbox": [
+            664,
+            392,
+            894,
+            484
+          ],
+          "class_name": "product",
+          "is_target": false
+        }
+      ],
+      "annotated_image_path": "frame_208_annotated.png"
+    },
+    {
+      "frame_index": 209,
+      "image_path": "frame_209.png",
+      "tracks": [
+        {
+          "track_id": "H6",
+          "bbox": [
+            586,
+            408,
+            810,
+            526
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_209_annotated.png"
+    },
+    {
+      "frame_index": 210,
+      "image_path": "frame_210.png",
+      "tracks": [
+        {
+          "track_id": "H6",
+          "bbox": [
+            553,
+            448,
+            755,
+            548
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_210_annotated.png"
+    },
+    {
+      "frame_index": 371,
+      "image_path": "frame_371.png",
+      "tracks": [
+        {
+          "track_id": "H6",
+          "bbox": [
+            341,
+            582,
+            487,
+            694
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_371_annotated.png"
+    },
+    {
+      "frame_index": 372,
+      "image_path": "frame_372.png",
+      "tracks": [
+        {
+          "track_id": "H6",
+          "bbox": [
+            342,
+            607,
+            458,
+            697
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_372_annotated.png"
+    },
+    {
+      "frame_index": 370,
+      "image_path": "frame_370.png",
+      "tracks": [
+        {
+          "track_id": "H9",
+          "bbox": [
+            412,
+            549,
+            510,
+            637
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_370_annotated.png"
+    },
+    {
+      "frame_index": 367,
+      "image_path": "frame_367.png",
+      "tracks": [
+        {
+          "track_id": "H9",
+          "bbox": [
+            500,
+            552,
+            590,
+            632
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_367_annotated.png"
+    },
+    {
+      "frame_index": 380,
+      "image_path": "frame_380.png",
+      "tracks": [
+        {
+          "track_id": "H10",
+          "bbox": [
+            363,
+            644,
+            439,
+            716
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_380_annotated.png"
+    },
+    {
+      "frame_index": 381,
+      "image_path": "frame_381.png",
+      "tracks": [
+        {
+          "track_id": "H10",
+          "bbox": [
+            361,
+            652,
+            447,
+            716
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ],
+      "annotated_image_path": "frame_381_annotated.png"
+    }
+  ],
+  "candidate_transitions": [
+    {
+      "old_track_id": "H1",
+      "new_track_id": "H2",
+      "old_frame_index": 153,
+      "new_frame_index": 160
+    },
+    {
+      "old_track_id": "H2",
+      "new_track_id": "H4",
+      "old_frame_index": 171,
+      "new_frame_index": 183
+    },
+    {
+      "old_track_id": "H4",
+      "new_track_id": "H6",
+      "old_frame_index": 208,
+      "new_frame_index": 209
+    },
+    {
+      "old_track_id": "H6",
+      "new_track_id": "H9",
+      "old_frame_index": 372,
+      "new_frame_index": 370
+    },
+    {
+      "old_track_id": "H9",
+      "new_track_id": "H6",
+      "old_frame_index": 370,
+      "new_frame_index": 371
+    },
+    {
+      "old_track_id": "H9",
+      "new_track_id": "H10",
+      "old_frame_index": 370,
+      "new_frame_index": 380
+    },
+    {
+      "old_track_id": "H6",
+      "new_track_id": "H10",
+      "old_frame_index": 372,
+      "new_frame_index": 380
+    }
+  ]
+}

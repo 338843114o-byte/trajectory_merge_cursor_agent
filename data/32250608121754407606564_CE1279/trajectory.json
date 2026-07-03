@@ -1,0 +1,120 @@
+{
+  "case_id": "2025-08-05-da97e7c12e716a23f73242267d320ac7_main_track9_to_track13",
+  "frames": [
+    {
+      "frame_index": 269,
+      "image_path": "frame_000269.jpg",
+      "tracks": [
+        {
+          "track_id": "H9",
+          "bbox": [
+            902,
+            164,
+            1280,
+            586
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ]
+    },
+    {
+      "frame_index": 295,
+      "image_path": "frame_000295.jpg",
+      "tracks": [
+        {
+          "track_id": "H9",
+          "bbox": [
+            778,
+            233,
+            1198,
+            655
+          ],
+          "class_name": "product",
+          "is_target": true
+        },
+        {
+          "track_id": "H13",
+          "bbox": [
+            178,
+            576,
+            544,
+            720
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ]
+    },
+    {
+      "frame_index": 354,
+      "image_path": "frame_000354.jpg",
+      "tracks": [
+        {
+          "track_id": "H9",
+          "bbox": [
+            496,
+            391,
+            916,
+            720
+          ],
+          "class_name": "product",
+          "is_target": true
+        },
+        {
+          "track_id": "H13",
+          "bbox": [
+            265,
+            543,
+            632,
+            720
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ]
+    },
+    {
+      "frame_index": 359,
+      "image_path": "frame_000359.jpg",
+      "tracks": [
+        {
+          "track_id": "H13",
+          "bbox": [
+            272,
+            540,
+            639,
+            720
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ]
+    },
+    {
+      "frame_index": 360,
+      "image_path": "frame_000360.jpg",
+      "tracks": [
+        {
+          "track_id": "H13",
+          "bbox": [
+            274,
+            539,
+            641,
+            720
+          ],
+          "class_name": "product",
+          "is_target": true
+        }
+      ]
+    }
+  ],
+  "candidate_transitions": [
+    {
+      "old_track_id": "H9",
+      "new_track_id": "H13",
+      "old_frame_index": 354,
+      "new_frame_index": 359
+    }
+  ]
+}
