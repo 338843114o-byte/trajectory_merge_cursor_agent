@@ -16,27 +16,30 @@ CURSOR_WORKSPACE="${CURSOR_WORKSPACE:-${PROJECT_ROOT}}"
 CURSOR_MODEL="${CURSOR_MODEL:-composer-2.5}"
 
 # ============================================================
-# 阿里云百炼 Qwen3.7-Max 视觉模型配置
+# YXKL OpenAI 兼容模型 (gpt-5.4) 配置
 # ============================================================
 
-# 不要使用已经泄露的旧 Key，替换成重新生成的 Key
-export VLM_API_KEY='sk-ws-H.RXPLRRL.ZrLW.MEQCIAN42EEPeQkN61y7w-U8NuliI1P8sc0QwTlcgkJuw5vEAiAaFY8M9gs80NzEZV3n0M3XBf5dVqJ_YgjWCAxZrIx_zg'
+# 设置 API Key 环境变量 (对应 api_key_env: YXKL_API_KEY)
+export YXKL_API_KEY='sk-3gIiDHkNGEXntL5j1Z5kjPdgoAaOZYhLwN5yI9F52K7pluh7'
+# 同时赋值给 VLM_API_KEY 供脚本内部校验和传参使用
+export VLM_API_KEY="$YXKL_API_KEY"
 
-# 阿里云百炼业务空间 OpenAI 兼容地址
-VLM_API_BASE_URL="${VLM_API_BASE_URL:-https://ws-smovhssc95pp2zad.cn-beijing.maas.aliyuncs.com/compatible-mode/v1}"
+# OpenAI 兼容接口地址
+VLM_API_BASE_URL="${VLM_API_BASE_URL:-https://ai.yxkl.cloud/v1}"
 
-# 必须使用 2026-06-08 视觉版本
-VLM_MODEL="${VLM_MODEL:-qwen3.7-max-2026-06-08}"
+# 模型名称
+VLM_MODEL="${VLM_MODEL:-gpt-5.4}"
 
-# Bearer 鉴权
+# Bearer 鉴权 (OpenAI 兼容标准)
 VLM_API_KEY_HEADER="${VLM_API_KEY_HEADER:-Authorization}"
 VLM_API_KEY_PREFIX="${VLM_API_KEY_PREFIX:-Bearer}"
 
-# 生成参数
+# 生成参数 (对应 max_tokens: 4096, temperature: 0.1, vl_high_resolution_images: false)
 VLM_MAX_TOKENS="${VLM_MAX_TOKENS:-4096}"
-VLM_TEMPERATURE="${VLM_TEMPERATURE:-0}"
+VLM_TEMPERATURE="${VLM_TEMPERATURE:-0.1}"
 VLM_RETRIES="${VLM_RETRIES:-2}"
-VLM_IMAGE_DETAIL="${VLM_IMAGE_DETAIL:-high}"
+# 因为 vl_high_resolution_images 为 false，这里将图像细节设为 low
+VLM_IMAGE_DETAIL="${VLM_IMAGE_DETAIL:-low}"
 
 cd "$PROJECT_ROOT"
 
